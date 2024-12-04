@@ -138,7 +138,7 @@ La clase **`VerMasTarde`** permite almacenar y recuperar las películas que los 
 
 ---
 
-## **Link de documentación adicional**
+## **Link Grabación**
 
 - [Documentación y recursos adicionales](https://drive.google.com/drive/folders/10ytTcayQqy-YRyud2HvfIFZi3QGEHU78?usp=sharing)
 
