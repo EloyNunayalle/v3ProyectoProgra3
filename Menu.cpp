@@ -124,17 +124,21 @@ void Menu::buscarPorTag(const unordered_map<string, vector<Pelicula*>>& tagIndex
     for (const auto& [tag, _] : tagIndex) {
         tags.push_back(tag);
     }
-
     for (size_t i = 0; i < tags.size(); ++i) {
-        cout << (i + 1) << ". " << tags[i] << endl;
+        if(i == tags.size()-1){
+            cout << tags[i] <<"."<< endl;
+        }
+        cout << tags[i] << ", ";
     }
+    cout << endl;
+    cout << "Escriba un tag de la lista: ";
 
-    cout << "Seleccione el numero de un tag: ";
-    int eleccion;
+    string eleccion;
     cin >> eleccion;
 
-    if (eleccion > 0 && eleccion <= tags.size()) {
-        string tagElegido = tags[eleccion - 1];
+    if (eleccion != "") {
+
+        string tagElegido = eleccion;
         vector<Pelicula*> peliculas = tagIndex.at(tagElegido);
         size_t pagina = 0;
         const size_t resultadosPorPagina = 5;
@@ -147,7 +151,6 @@ void Menu::buscarPorTag(const unordered_map<string, vector<Pelicula*>>& tagIndex
                 cout << (i + 1) << ". " << peliculas[i]->title << endl;
             }
 
-            cout << endl;
             cout << "1. Ver los siguientes cinco resultados" << endl;
             cout << "2. Elegir una pelicula" << endl;
             cout << "3. Volver al menu principal" << endl;
