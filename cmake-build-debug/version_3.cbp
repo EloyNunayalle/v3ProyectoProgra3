@@ -118,6 +118,12 @@
 		<Unit filename="C:/Users/antho/OneDrive/Escritorio/proyectoprogra3/proyectov3/v3ProyectoProgra3/Utils.h">
 			<Option target="version_3"/>
 		</Unit>
+		<Unit filename="C:/Users/antho/OneDrive/Escritorio/proyectoprogra3/proyectov3/v3ProyectoProgra3/VerMasTarde.cpp">
+			<Option target="version_3"/>
+		</Unit>
+		<Unit filename="C:/Users/antho/OneDrive/Escritorio/proyectoprogra3/proyectov3/v3ProyectoProgra3/VerMasTarde.h">
+			<Option target="version_3"/>
+		</Unit>
 		<Unit filename="C:/Users/antho/OneDrive/Escritorio/proyectoprogra3/proyectov3/v3ProyectoProgra3/main.cpp">
 			<Option target="version_3"/>
 		</Unit>

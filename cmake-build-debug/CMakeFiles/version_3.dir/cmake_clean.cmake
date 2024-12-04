@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/version_3.dir/TrieNode.cpp.obj.d"
   "CMakeFiles/version_3.dir/Utils.cpp.obj"
   "CMakeFiles/version_3.dir/Utils.cpp.obj.d"
+  "CMakeFiles/version_3.dir/VerMasTarde.cpp.obj"
+  "CMakeFiles/version_3.dir/VerMasTarde.cpp.obj.d"
   "CMakeFiles/version_3.dir/main.cpp.obj"
   "CMakeFiles/version_3.dir/main.cpp.obj.d"
   "libversion_3.dll.a"

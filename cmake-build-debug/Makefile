@@ -272,6 +272,30 @@ Utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\version_3.dir\build.make CMakeFiles/version_3.dir/Utils.cpp.s
 .PHONY : Utils.cpp.s
 
+VerMasTarde.obj: VerMasTarde.cpp.obj
+.PHONY : VerMasTarde.obj
+
+# target to build an object file
+VerMasTarde.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\version_3.dir\build.make CMakeFiles/version_3.dir/VerMasTarde.cpp.obj
+.PHONY : VerMasTarde.cpp.obj
+
+VerMasTarde.i: VerMasTarde.cpp.i
+.PHONY : VerMasTarde.i
+
+# target to preprocess a source file
+VerMasTarde.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\version_3.dir\build.make CMakeFiles/version_3.dir/VerMasTarde.cpp.i
+.PHONY : VerMasTarde.cpp.i
+
+VerMasTarde.s: VerMasTarde.cpp.s
+.PHONY : VerMasTarde.s
+
+# target to generate assembly for a file
+VerMasTarde.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\version_3.dir\build.make CMakeFiles/version_3.dir/VerMasTarde.cpp.s
+.PHONY : VerMasTarde.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -323,6 +347,9 @@ help:
 	@echo ... Utils.obj
 	@echo ... Utils.i
 	@echo ... Utils.s
+	@echo ... VerMasTarde.obj
+	@echo ... VerMasTarde.i
+	@echo ... VerMasTarde.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

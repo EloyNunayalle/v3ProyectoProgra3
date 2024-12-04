@@ -17,4 +17,4 @@ add_executable(version_3
         DataLoader.h
         Menu.cpp
         Menu.h
-)
+        VerMasTarde.h VerMasTarde.cpp)

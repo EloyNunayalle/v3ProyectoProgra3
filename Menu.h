@@ -11,17 +11,18 @@
 #include <string>
 #include "Pelicula.h"
 #include "Trie.h"
+#include "VerMasTarde.h"
 
 class Menu {
 public:
     static void iniciarMenu(std::vector<Pelicula*>& peliculas,
                             Trie& trie,
-                            std::unordered_map<std::string, std::vector<Pelicula*>>& tagIndex);
+                            std::unordered_map<std::string, std::vector<Pelicula*>>& tagIndex,VerMasTarde& vmt);
 
 private:
-    static void buscarPorPalabraClave(Trie& trie);
-    static void buscarPorTag(const std::unordered_map<std::string, std::vector<Pelicula*>>& tagIndex);
-    static void mostrarPelicula(Pelicula* pelicula);
+    static void buscarPorPalabraClave(Trie& trie,VerMasTarde& vmt);
+    static void buscarPorTag(const std::unordered_map<std::string, std::vector<Pelicula*>>& tagIndex, VerMasTarde& vmt);
+    static void mostrarPelicula(Pelicula* pelicula,VerMasTarde& vmt);
     static void cargarDatos(const std::string& filename,
                             std::vector<Pelicula*>& peliculas,
                             Trie& trie,
