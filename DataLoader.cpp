@@ -4,7 +4,7 @@
 #include <sstream>
 #include <iostream>      // Se mantiene para usar cerr en caso de errores
 #include <stdexcept>
-
+#include <typeinfo>
 using namespace std;
 
 void DataLoader::loadMovies(const string& filename,
@@ -50,7 +50,9 @@ void DataLoader::loadMovies(const string& filename,
 
         // Indexar por tags
         for (const auto& tag : tagSet) {
-            tagIndex[tag].push_back(pelicula);
+            for (const auto& tag_individual : Utils::splitToSet(tag,',')) {
+                tagIndex[tag_individual].push_back(pelicula);
+            }
         }
 
 

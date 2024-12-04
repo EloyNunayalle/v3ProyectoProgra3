@@ -147,6 +147,7 @@ void Menu::buscarPorTag(const unordered_map<string, vector<Pelicula*>>& tagIndex
                 cout << (i + 1) << ". " << peliculas[i]->title << endl;
             }
 
+            cout << endl;
             cout << "1. Ver los siguientes cinco resultados" << endl;
             cout << "2. Elegir una pelicula" << endl;
             cout << "3. Volver al menu principal" << endl;
