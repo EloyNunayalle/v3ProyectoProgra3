@@ -1,0 +1,17 @@
+# ninja log v5
+15	828	7549748786764068	CMakeFiles/version_3.dir/Menu.cpp.obj	e7d6d13863793622
+12	741	7549748785905525	CMakeFiles/version_3.dir/DataLoader.cpp.obj	b9d6a1bfd5428713
+6	393	7549748782415881	CMakeFiles/version_3.dir/Pelicula.cpp.obj	492b83262f4020ed
+9	670	7549748785200496	CMakeFiles/version_3.dir/Utils.cpp.obj	406acafecb89b0aa
+22	460	7549748783098862	CMakeFiles/version_3.dir/TrieNode.cpp.obj	5be7683c04c67e20
+3	485	7549748783349627	CMakeFiles/version_3.dir/main.cpp.obj	1bc301d6de4dc720
+18	596	7549748784428921	CMakeFiles/version_3.dir/Trie.cpp.obj	ac0a81b625e28d8c
+828	1068	7549748789124377	version_3.exe	7c897664c8767b8c
+6	367	7549750632289356	CMakeFiles/version_3.dir/Pelicula.cpp.obj	492b83262f4020ed
+19	451	7549750633124525	CMakeFiles/version_3.dir/TrieNode.cpp.obj	5be7683c04c67e20
+3	460	7549750633214618	CMakeFiles/version_3.dir/main.cpp.obj	1bc301d6de4dc720
+12	571	7549750634329930	CMakeFiles/version_3.dir/Trie.cpp.obj	ac0a81b625e28d8c
+9	673	7549750635340598	CMakeFiles/version_3.dir/Utils.cpp.obj	406acafecb89b0aa
+23	727	7549750635884153	CMakeFiles/version_3.dir/DataLoader.cpp.obj	b9d6a1bfd5428713
+16	794	7549750636560084	CMakeFiles/version_3.dir/Menu.cpp.obj	e7d6d13863793622
+794	1018	7549750638736916	version_3.exe	7c897664c8767b8c

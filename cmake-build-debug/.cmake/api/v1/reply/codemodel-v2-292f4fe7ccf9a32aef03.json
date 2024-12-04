@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "version_3",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "version_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-version_3-Debug-56e55a801f2ff7dcfd32.json",
+					"name" : "version_3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Usuario/Desktop/UTEC_CC/3 CICLO - 2024 -2/Programaci\u00f3n III (CS2013) - Teo. 2 - Lab. 2.01 - 2024 - 2/Proyecto/version 3/cmake-build-debug",
+		"source" : "C:/Users/Usuario/Desktop/UTEC_CC/3 CICLO - 2024 -2/Programaci\u00f3n III (CS2013) - Teo. 2 - Lab. 2.01 - 2024 - 2/Proyecto/version 3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
